@@ -32,7 +32,7 @@ this should create a `vesuvius-badge.uf2` which you can copy to the Raspberry Pi
 
 ## Hardware Notes
 
-As outlined in the [blog post]([this blogpost](https://vesuvius.virtual-void.net/blog/2024/01/10/vesuvius-badge-hardware/)) mentioned above, the
+As outlined in the [blog post](https://vesuvius.virtual-void.net/blog/2024/01/10/vesuvius-badge-hardware/) mentioned above, the
 badge can be configured with different hardware options.
 
 This firmware assumes that the Pico is soldered to the back of the board, or connected via the break out pins.
