@@ -8,7 +8,9 @@ in the [hardware design repository](https://github.com/jrudolph/vesuvius-badge).
 
 ## Building the Firmware
 
-This project depends on the [pico-sdk](https://github.com/raspberrypi/pico-sdk) and downloads the sdk automatically during the cmake build process.
+This project depends on the [pico-sdk](https://github.com/raspberrypi/pico-sdk) and downloads the sdk automatically during the cmake build process. If you have
+the Pico SDK installed in a different location, you can set the `PICO_SDK_PATH` environment variable to point to the location of the SDK (and avoid
+the download).
 
 To build under Linux, you will have to install the toolchain as outlined in [Getting Started with Raspberry Pi Pico (pdf)](https://datasheets.raspberrypi.com/pico/getting-started-with-pico.pdf#%5B%7B%22num%22%3A10%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22XYZ%22%7D%2C115%2C629.322%2Cnull%5D)
 
