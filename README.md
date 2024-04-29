@@ -1,7 +1,7 @@
 # Vesuvius First Word Badge Firmware (for Raspberry Pi Pico)
 
-This is the firmware for the Vesuvius First Word Badge, a Raspberry Pi Pico-based badge that displays the first word found in burnt papyrus scrolls
-analyzed for the [Vesuvius Challenge](https://scrollprize.substack.com/p/first-word-discovered-in-unopened).
+This is the firmware for the Vesuvius First Word Badge (in Rapberry Pi Pico configuration), a badge that displays the first word found
+in burnt papyrus scrolls analyzed for the [Vesuvius Challenge](https://scrollprize.substack.com/p/first-word-discovered-in-unopened).
 
 Read more about the hardware of the badge in this [blog post](https://vesuvius.virtual-void.net/blog/2024/01/10/vesuvius-badge-hardware/), and
 in the [hardware design repository](https://github.com/jrudolph/vesuvius-badge).
@@ -47,3 +47,5 @@ This firmware assumes that the Pico is soldered to the back of the board, or con
         the battery with potentially grave consequences (fire, leakage, etc).
 - Data:
     - GPIO pins 16/17 of the Pico will be used for I2C communication with the LED driver.
+
+![Vesuvius Badge x3](https://raw.githubusercontent.com/jrudolph/vesuvius-badge/main/media/vesuvius-badge-3x.webp)
